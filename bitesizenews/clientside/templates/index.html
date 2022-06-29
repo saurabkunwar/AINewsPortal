@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %} BiteSizeNews {% endblock title %}
+
+{% block content %}
+
+    {% for article in articles %}
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6" style="margin-left: 25%; margin-top:50px;">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h4>{{ article.title }}</h4>
+          <p>{{ article.published_date }} || {{ article.publisher }} || {{ article.category }}</p>
+          <p>
+            {{ article.summarization }}
+          </p>
+          <a class="btn btn-outline-light" href="{{ article.link }}" target="_blank">
+            Original
+          </a>
+          <a class="btn btn-outline-light" href="{% url 'explore' article.id %}" target="_blank">
+            Explore
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {% endfor %}
+    
+{% endblock content %}
