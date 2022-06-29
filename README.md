@@ -16,4 +16,19 @@ Through this project, I aim to summarize these news in a very short format and u
 
 ## Demo
 
+Home page of web app
+
 ![alt text](https://github.com/saurabkunwar/AINewsPortal/blob/master/images/1.PNG)
+
+
+Some examples of summarized News
+
+![alt text](https://github.com/saurabkunwar/AINewsPortal/blob/master/images/2.PNG)
+
+
+Similar News suggested by using semantic similarity
+
+![alt text](https://github.com/saurabkunwar/AINewsPortal/blob/master/images/3.PNG)
+
+![alt text](https://github.com/saurabkunwar/AINewsPortal/blob/master/images/4.PNG)
+
