@@ -32,3 +32,24 @@ Similar News suggested by using semantic similarity
 
 ![alt text](https://github.com/saurabkunwar/AINewsPortal/blob/master/images/5.PNG)
 
+
+## Technical Aspect
+
+1. Crawling of website is done by BeautifulSoup4
+2. Summarization of news is done by Pegasus Model by google. Specifically, 'pegasus-cnn_dailymail' checkpoint. No finetuning is done. Hugging face library is used.
+3. 'all-MiniLM-L6-v2' model is used to find semantic textual similarity between these news content. Sentence transformers library is used for this purpose.
+4. In the end, django is used to deploy the model.
+
+
+## Directory/File Description
+
+1. NepalNewsCrawler.py and crawler.py are used to crawl the nepalnews and kathmandupost respectively.
+2. Summarizer.py looks into database for unsummarized news and summarizes it.
+3. Bitesizenews folder consists of django project.
+
+Note: Other files are clutered as it is an ongoing project.
+
+## Futher Improvement
+
+1. User engagement tracking for recommendation system.
+2. Question Answering system to quickly find the information.
