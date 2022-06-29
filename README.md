@@ -30,5 +30,5 @@ Similar News suggested by using semantic similarity
 
 ![alt text](https://github.com/saurabkunwar/AINewsPortal/blob/master/images/3.PNG)
 
-![alt text](https://github.com/saurabkunwar/AINewsPortal/blob/master/images/4.PNG)
+![alt text](https://github.com/saurabkunwar/AINewsPortal/blob/master/images/5.PNG)
 
